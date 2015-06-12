@@ -5,19 +5,26 @@ height: 100%;
 }
 
 body{
-margin: 0px;
-min-height: 100%;
-background-color:#EE9297;
+	margin: 0px;
+	min-height: 100%;
+	/*background-color:#EE9297;*/
+	background-image: url(../img/background.jpg);
+	background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 .main-header{
-background-color:#C65A60;
+background-color: white;
 padding: 10px;
 text-align: center;
 font-family: 'Alfa Slab One', cursive;
 font-weight: 400;
 font-size: 3em;
-color: white;
+color: #C65A60;
 }
 
 .main-body{
