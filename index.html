@@ -1,20 +1,50 @@
 <html>
 <head>
 	<title>A to B</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="css/grid.css" rel='stylesheet' type='text/css' />
 	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
-	<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:400,700|Bevan' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Alfa+Slab+One|Josefin+Slab:400,700' rel='stylesheet' type='text/css'>
 	<!--<link rel="icon" href="images/guitar.ico"/>                         <!-- favicon logo  -->
 	<meta name="viewport" content="width=device-width, initial-scale=1"> 
 </head>
 <body>
-	<span class="main-header">
-	Travel.	
-	</span>
-	<span class="main-body">
-	Much.	
-	</span>
-	<span class="main-nav">
-	Excite.	
+	<div class="main-header">
+	Finding Waldo	
+	</div>
+	<span class="main-body grid container">
+		<div class="col-1">
+			<div class="white-box">
+				<div class="main-title">
+					Travel Basics
+				</div>
+				
+				<div class="content input-landing">
+					<ul>
+						<li>Email:</li>
+						<input type="text" placeholder="bob@gmail.com" required/>
+						<li>Contributors Emails:</li>
+						<input type="text" placeholder="dan@gmail.com, anne@gmail.com, frank@aol.com" required/>
+						<li>Type of Trip:</li>
+						<div class="search-box">
+							<form>
+								<span class="cat-box">
+									<select>
+										<option>----------------</option>
+										<option>Spending Money Yo</option>
+										<option>Drunken Wasteland</option>
+										<option>Dora Exploring</option>
+									</select>
+								</span>
+							</form>
+							<form>
+								<input type="submit" value="Enter" />
+							</form>
+						</div>
+					</ul>
+				</div>
+			</div>
+		</div>
 	</span>
 </body>
 </html>

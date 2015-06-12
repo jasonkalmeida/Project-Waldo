@@ -1,0 +1,91 @@
+html {
+margin-top: 0px;
+padding-top: 0px;
+height: 100%;
+}
+
+body{
+margin: 0px;
+min-height: 100%;
+background-color:#EE9297;
+}
+
+.main-header{
+background-color:#C65A60;
+padding: 10px;
+text-align: center;
+font-family: 'Alfa Slab One', cursive;
+font-weight: 400;
+font-size: 3em;
+color: white;
+}
+
+.main-body{
+text-align: center;
+padding: 100px;
+font-family: 'Josefin Slab', serif;
+}
+
+.main-body ul{
+text-decoration: none;
+list-style-type: none;
+}
+
+.main-body li{
+padding: 5px;
+}
+
+form {
+padding: 3px;
+}
+
+.input-landing input[type=text] {
+	width: 50%;
+	height: 40px;
+	padding:2px; 
+	border:2px solid #ccc; 
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+.cat-box select{
+	color: #666666;
+	border: 2px solid #ccc;
+   background: white;
+   /*width: 50px;*/
+   padding: 10px;
+   font-size: 16px;
+   line-height: 1;
+   border-radius: 5px;
+   height: 40px;
+   -webkit-appearance: menulist;
+   font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.input-landing input[type=submit] {
+	padding:5px 15px; 
+	background:#ccc; 
+	border:0 none;
+	cursor:pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; 
+	color: white;
+	height: 40px;
+	font-size: 20px;
+	}
+
+.main-title{
+font-size: 2em;
+font-weight: 700;
+}
+
+.content{
+padding: .2em;
+font-size: 1.5em;
+font-weight: 400;
+}
+
+.main-nav{
+
+}
