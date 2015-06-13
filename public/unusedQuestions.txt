@@ -38,3 +38,18 @@ Unused Questions
 								<input type="checkbox" name="sites" value="aBars">Bars
 								<input type="checkbox" name="sites" value="aEvents">Live Events
 							</div>
+														<li>What do you want your trip to focus on?</li>
+							<!--
+							Begins to narrow recommendations; Amount of group to choose determines number of recommendations in certain topics							
+							-->
+							<div class="search-box">
+								<span class="cat-box">
+									<select name="focus">
+										<option>---------------------</option>
+										<option value="attract">Attractions</option>
+										<option value="food">Food</option>
+										<option value="night">Nightlife</option>
+										<option value="outdoor">Outdoor</option>
+									</select>
+								</span>
+							</div>

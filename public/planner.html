@@ -24,6 +24,19 @@
 				<div class="content input-landing">
 					<ul>
 						<form action="#" method="POST" target="_blank">
+							<li>How long is your trip?</li>
+							<div class="search-box">
+								<span class="cat-box">
+									<select name="tLength">
+										<option>---------------------</option>
+										<option value="1ds">1 day</option>
+										<option value="2ds">2 days</option>
+										<option value="3ds">3 days</option>
+										<option value="4ds">4 days</option>
+										<option value="5ds">5 days</option>
+									</select>
+								</span>
+							</div>
 							<li>What level of money do you want to spend?</li> 
 							<!--
 								Determines level of $ willing to spend
@@ -35,21 +48,6 @@
 										<option value="low">Low</option>
 										<option value="med">Medium</option>
 										<option value="high">High</option>
-									</select>
-								</span>
-							</div>
-							<li>What do you want your trip to focus on?</li>
-							<!--
-							Begins to narrow recommendations; Amount of group to choose determines number of recommendations in certain topics							
-							-->
-							<div class="search-box">
-								<span class="cat-box">
-									<select name="focus">
-										<option>---------------------</option>
-										<option value="attract">Attractions</option>
-										<option value="food">Food</option>
-										<option value="night">Nightlife</option>
-										<option value="outdoor">Outdoor</option>
 									</select>
 								</span>
 							</div>
@@ -68,17 +66,26 @@
 									</select>
 								</span>
 							</div>
-							<li>How long is your trip?</li>
+							<li>Minimum rating for restaurants?</li>
 							<div class="search-box">
 								<span class="cat-box">
 									<select name="tLength">
 										<option>---------------------</option>
-										<option value="1ds">1 day</option>
-										<option value="2ds">2 days</option>
-										<option value="3ds">3 days</option>
-										<option value="4ds">4 days</option>
-										<option value="5ds">5 days</option>
-										<option value="6ds">6 days</option>
+										<option value="1rs">1 star</option>
+										<option value="2rs">2 stars</option>
+										<option value="3rs">3 stars</option>
+										<option value="4rs">4 stars</option>
+										<option value="5rs">5 stars</option>
+									</select>
+								</span>
+							</div>
+							<li>Especially looking for special events?</li>
+							<div class="search-box">
+								<span class="cat-box">
+									<select name="tLength">
+										<option>---------------------</option>
+										<option value="Yse">Yes</option>
+										<option value="Nse">No Preference</option>
 									</select>
 								</span>
 							</div>
