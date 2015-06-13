@@ -1,0 +1,25 @@
+{
+  "name": "Project-Waldo",
+  "version": "1.0.0",
+  "description": "Personalized Group Trips",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.12.4",
+    "yelp": "^0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jasonkalmeida/Project-Waldo.git"
+  },
+  "author": "Sam and Jason",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasonkalmeida/Project-Waldo/issues"
+  },
+  "homepage": "https://github.com/jasonkalmeida/Project-Waldo"
+}
