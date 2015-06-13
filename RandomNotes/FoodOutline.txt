@@ -1,0 +1,5 @@
+Food:
+	Price: Low Medium High
+	Type: Comfort, Local, Don't Care
+	Food Types: Vegetarian, Vegan
+	Allergies: Peanuts
