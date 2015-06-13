@@ -21,26 +21,24 @@
 				
 				<div class="content input-landing">
 					<ul>
-						<li>Email:</li>
-						<input type="text" placeholder="bob@gmail.com" required/>
-						<li>Contributors Emails:</li>
-						<input type="text" placeholder="dan@gmail.com, anne@gmail.com, frank@aol.com" required/>
-						<li>Type of Trip:</li>
-						<div class="search-box">
-							<form>
+						<form action="planner.html" method="POST">
+							<li>Email:</li>
+							<input type="text" name="ownEmail" placeholder="bob@gmail.com" required/>
+							<li>Contributors Emails:</li>
+							<input type="text" name="coEmail" placeholder="dan@gmail.com, anne@gmail.com, frank@aol.com" required/>
+							<li>Type of Trip:</li>
+							<div class="search-box">
 								<span class="cat-box">
-									<select>
+									<select name="trip">
 										<option>----------------</option>
-										<option>Spending Money Yo</option>
-										<option>Drunken Wasteland</option>
-										<option>Dora Exploring</option>
+										<option value="couples">Spending Money Yo</option>
+										<option value="sbreak">Drunken Wasteland</option>
+										<option value="adventure">Dora Exploring</option>
 									</select>
 								</span>
-							</form>
-							<form>
 								<input type="submit" value="Enter" />
-							</form>
-						</div>
+							</div>
+						</form>
 					</ul>
 				</div>
 			</div>
