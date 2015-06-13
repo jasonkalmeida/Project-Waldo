@@ -1,0 +1,40 @@
+Unused Questions
+
+
+							<li>Interest in outdoor activities?</li>
+							<!--
+							Inclusion of trips from Kumutu API?
+							Medium rankings will include extremely highly rated or cheap options
+							-->
+							<div class="search-box">
+								<span class="cat-box">
+									<select name="outdoorQ">
+										<option>---------------------</option>
+										<option value="oa1">Low</option>
+										<option value="oa2">Medium</option>
+										<option value="oa3">High</option>
+									</select>
+								</span>
+							</div>
+							<li>What sites are you interested in?</li>
+							<!--
+							The types of sites to include during the day
+							Since most of the day will be open, this will determine that, or people who searched this also searched XYZ
+							-->
+							<div class="search-box">
+								<input type="checkbox" name="sites" value="museum">Museum
+								<input type="checkbox" name="sites" value="markets">Markets
+								<input type="checkbox" name="sites" value="performance">Performances
+								<input type="checkbox" name="sites" value="landmarks">Landmarks
+								<input type="checkbox" name="sites" value="historical">Historical Sites
+							</div>
+							<li>Which of the following activities are you interested in?</li>
+							<!--
+							The types of sites to include during the day
+							Since most of the day will be open, this will determine that, or people who searched this also searched XYZ
+							-->
+							<div class="search-box">
+								<input type="checkbox" name="sites" value="aEat">Eating Out
+								<input type="checkbox" name="sites" value="aBars">Bars
+								<input type="checkbox" name="sites" value="aEvents">Live Events
+							</div>
