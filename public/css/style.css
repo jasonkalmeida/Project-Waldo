@@ -27,6 +27,11 @@ font-size: 3em;
 color: #C65A60;
 }
 
+.main-header a{
+text-decoration: none;
+color: #C65A60;
+}
+
 .main-body{
 text-align: center;
 padding: 100px;
