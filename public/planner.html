@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>A to B</title>
+	<title>Initial Survey</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="css/grid.css" rel='stylesheet' type='text/css' />
 	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
@@ -16,17 +16,20 @@
 		<div class="col-1">
 			<div class="white-box">
 				<div class="main-title">
-					Basic Questions 
+					Initial Survey
 				</div>
 				
 				<div class="content input-landing">
 					<ul>
 						<form action="#" method="POST" target="_blank">
-							<li>What level of money do you want to spend?</li>
+							<li>What level of money do you want to spend?</li> 
+							<!--
+								Determines level of $ willing to spend
+							-->
 							<div class="search-box">
 								<span class="cat-box">
 									<select name="money">
-										<option>----------------</option>
+										<option>---------------------</option>
 										<option value="low">Low</option>
 										<option value="med">Medium</option>
 										<option value="high">High</option>
@@ -34,51 +37,64 @@
 								</span>
 							</div>
 							<li>What do you want your trip to focus on?</li>
+							<!--
+							Begins to narrow recommendaitons; Amount of group to choose detemrines number of recommendations in certain topics							
+							-->
 							<div class="search-box">
 								<span class="cat-box">
 									<select name="focus">
-										<option>----------------</option>
-										<option>Food</option>
-										<option>Attractions</option>
-										<option>Outdoor</option>
+										<option>---------------------</option>
+										<option value="attract">Attractions</option>
+										<option value="food">Food</option>
+										<option value="night">Nightlife</option>
+										<option value="outdoor">Outdoor</option>
 									</select>
 								</span>
 							</div>
-							<li>Hello World</li>
+							<li>What is your preferred type of Food?</li>
+							<!--
+							Restaurants to go to; if 3 out of 5 people want comfort for 3 day trip, breakfasts and 2 dinners will be universal restaurants
+							focus on dinner for this applicaiton and hackathon?
+							-->
 							<div class="search-box">
 								<span class="cat-box">
-									<select name="q3">
-										<option>----------------</option>
-										<option>Spending Money Yo</option>
-										<option>Drunken Wasteland</option>
-										<option>Dora Exploring</option>
+									<select name="foodQ">
+										<option>---------------------</option>
+										<option value="cFood">Classics and Comforts</option>
+										<option value="lFood">Local Cuisine</option>
+										<option value="noFood">No Preference</option>
 									</select>
 								</span>
 							</div>
-							<li>Question 4:</li>
+							<li>Interest in outdoor activities?</li>
+							<!--
+							Inclusion of trips from Kumutu API?
+							Medium rankings will include extremely highly rated or cheap options
+							-->
 							<div class="search-box">
 								<span class="cat-box">
-									<select name="q4">
-										<option>----------------</option>
-										<option>Spending Money Yo</option>
-										<option>Drunken Wasteland</option>
-										<option>Dora Exploring</option>
+									<select name="outdoorQ">
+										<option>---------------------</option>
+										<option value="oa1">Low</option>
+										<option value="oa2">Medium</option>
+										<option value="oa3">High</option>
 									</select>
 								</span>
 							</div>
-							<li>Question 5:</li>
+							<li>What sites are you interested in?</li>
+							<!--
+							The types of sites to include during the day
+							Since most of the day will be open, this will determine that, or people who searched this also searched XYZ
+							-->
 							<div class="search-box">
-								<span class="cat-box">
-									<select name="q5">
-										<option>----------------</option>
-										<option>Spending Money Yo</option>
-										<option>Drunken Wasteland</option>
-										<option>Dora Exploring</option>
-									</select>
-								</span>
-								<br><br>
-								<input type="submit" value="Enter" />
+								<input type="checkbox" name="sites" value="museum">Museum
+								<input type="checkbox" name="sites" value="markets">Markets
+								<input type="checkbox" name="sites" value="performance">Performances
+								<input type="checkbox" name="sites" value="landmarks">Landmarks
+								<input type="checkbox" name="sites" value="historical">Historical Sites
 							</div>
+							<br><br>
+							<input type="submit" value="Enter" />
 						</form>
 					</ul>
 				</div>

@@ -66,6 +66,7 @@ padding: 3px;
    line-height: 1;
    border-radius: 5px;
    height: 40px;
+   width: 200px;
    -webkit-appearance: menulist;
    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
