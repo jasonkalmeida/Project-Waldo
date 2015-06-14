@@ -23,17 +23,22 @@
 				
 				<div class="content input-landing">
 					<ul>
-						<form action="#" method="POST" target="_blank">
+						<form action="http://localhost:3000/datapush" method="post">
 							<li>How long is your trip?</li>
 							<div class="search-box">
 								<span class="cat-box">
 									<select name="tLength">
 										<option>---------------------</option>
+
 										<option value="1ds">1 day</option>
 										<option value="2ds">2 days</option>
 										<option value="3ds">3 days</option>
 										<option value="4ds">4 days</option>
 										<option value="5ds">5 days</option>
+
+										<option value="1">Low</option>
+										<option value="2">Medium</option>
+										<option value="3">High</option>
 									</select>
 								</span>
 							</div>
@@ -45,9 +50,10 @@
 								<span class="cat-box">
 									<select name="money">
 										<option>---------------------</option>
-										<option value="low">Low</option>
-										<option value="med">Medium</option>
-										<option value="high">High</option>
+										<option value="1">Low</option>
+										<option value="2">Medium</option>
+										<option value="3">High</option>
+										<option value="4">Clinton Rich</option>
 									</select>
 								</span>
 							</div>
@@ -60,9 +66,9 @@
 								<span class="cat-box">
 									<select name="foodQ">
 										<option>---------------------</option>
-										<option value="cFood">Classics and Comforts</option>
-										<option value="lFood">Local Cuisine</option>
-										<option value="noFood">No Preference</option>
+										<option value="Fast Food">Classics and Comforts</option>
+										<option value="Food">Local Cuisine</option>
+										<option value="null">No Preference</option>
 									</select>
 								</span>
 							</div>
