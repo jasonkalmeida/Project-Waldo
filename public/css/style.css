@@ -89,10 +89,16 @@ padding: 3px;
 	}
 
 .main-title{
-font-size: 2em;
+font-size: 2.5em;
 font-weight: 700;
 }
 
+.sub-title{
+font-size: 1.5em;
+font-weight: 600;
+text-align: left;
+padding-left: 30px;
+}
 .content{
 padding: .2em;
 font-size: 1.5em;
